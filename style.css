@@ -28,12 +28,13 @@ body {
 .header h1 {
   font-size: 1.5rem;
   line-height: 35px;
-  font-weight: 400;
+  font-weight: 200;
 }
 span {
   display: block;
   font-weight: 600;
   color: hsl(234, 12%, 34%);
+  font-size: 1.8rem;
 }
 .header p {
   margin-top: 20px;
@@ -50,13 +51,13 @@ span {
 
 .card__item {
   display: flex;
-  flex-direction: column;
+  flex-flow: column wrap;
   gap: 40px;
   max-width: 300px;
   background-color: white;
   box-shadow: 0 5px 15px rgb(128, 128, 128, 0.2);
   padding: 30px 20px;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 .card__item1 {
   border-top: 5px solid hsl(180, 62%, 55%);
@@ -84,6 +85,7 @@ span {
 .card__text {
   color: hsl(234, 12%, 34%);
   font-weight: 400;
+  color: hsl(229, 6%, 66%);
 }
 .card__icon {
   align-self: end;
