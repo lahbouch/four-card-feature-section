@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 98%);
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  padding: 80px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  color: hsl(229, 6%, 66%);
+}
+.header h1 {
+  font-size: 1.5rem;
+  line-height: 35px;
+  font-weight: 400;
+}
+span {
+  display: block;
+  font-weight: 600;
+  color: hsl(234, 12%, 34%);
+}
+.header p {
+  margin-top: 20px;
+  line-height: 25px;
+  font-weight: 400;
+}
+
+.card__container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+}
+
+.card__item {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 300px;
+  background-color: white;
+  box-shadow: 0 5px 15px rgb(128, 128, 128, 0.2);
+  padding: 30px 20px;
+  border-radius: 10px;
+}
+.card__item1 {
+  border-top: 5px solid hsl(180, 62%, 55%);
+}
+.card__item2 {
+  border-top: 5px solid hsl(0, 78%, 62%);
+}
+
+.card__item3 {
+  border-top: 5px solid hsl(34, 97%, 64%);
+}
+
+.card__item4 {
+  border-top: 5px solid hsl(212, 86%, 64%);
+}
+
+.card__body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card__header {
+  color: hsl(234, 12%, 34%);
+}
+.card__text {
+  color: hsl(234, 12%, 34%);
+  font-weight: 400;
+}
+.card__icon {
+  align-self: end;
+}
+
+@media screen and (min-width: 786px) {
+  .container {
+    padding: 40px 10px;
+    gap: 50px;
+  }
+  .header {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .card__container {
+    flex-direction: row;
+  }
+  .card__container2 {
+    flex-direction: column;
+  }
+}
